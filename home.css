@@ -1,0 +1,39 @@
+ body {  background-color: #AFEEEE}
+
+		h1  {     font-family: Times new roman ; 
+			     font-size:50px;
+			     font-weight: bold;
+			     text-align: center;
+			     color: red;
+			 }    
+
+		ul {
+                 list-style: none; /*убираем маркеры списка*/
+                 margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+                 padding-left: 0; /*убираем левый отступ, равный 40px*/
+            }
+        a {text-decoration: none; /*убираем подчеркивание текста ссылок*/}
+
+      
+             .one ul {
+  padding: 1em 0;
+  background: #ECDAD6;
+}
+.one a {
+  padding: 1em;
+  background: rgba(177, 152, 145, .3);
+  border-right: 1px solid #b19891;
+  color: #695753;
+}
+.one a:hover {background: #b19891;}
+.one li {
+  display: inline;
+}	
+                
+             p {  font-family: Arial ;
+                  font-size:20px;
+
+                   }
+
+
+
